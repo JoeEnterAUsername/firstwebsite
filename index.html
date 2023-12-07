@@ -1,9 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+		<title>Welcome page</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+		<link rel="icon", type="image/x-icon" href="icons/joe.ico">
+		<link rel="stylesheet", href="styles/header.css">
+		<link rel="stylesheet", href="styles/general.css">
+		<link rel="stylesheet", href="styles/video.css">
+		<link rel="stylesheet", href="styles/body.css"> 
   </head>
-  <body>
 
+  <body>
+		<video autplay muted loop id="intro-video">
+			<source src="videos/Singapore.mp4" type="video/mp4">
+		</video>
+
+		<div class="video-button">
+			<button id="pause-button"> 
+				Pause video
+			</button>
+		</div>
+
+		
+		<div class = header>
+			<div class="left-section"></div>
+
+			<div class="middle-section">
+				<a href="main.html">
+					<button class ="home-button">Home</button>
+				</a>
+				<a href="links.html">
+					<button>Links</button>
+				</a>
+				<a href="projects.html">
+					<button>Projects</button>
+				</a>
+				<a href="Gallery">
+					<button>Gallery</button>
+				</a>
+
+			</div>
+
+			<div class = right-section>
+
+
+			</div>
+
+		</div>
+
+
+
+		<div class="footer">
+			<footer>
+				<p>
+					Stock footage provided by <a class="link author-link-popup" target="_blank" href="https://www.videvo.net/author/vidfy-Freepik/#rs=attribution-modal">Freepik</a>,
+					downloaded from <a class="videvo-redirect" target="_blank" href="https://www.videvo.net/#rs=attribution-modal">videvo.net</a>
+				</p>
+			</footer>
+			
+		</div>
   </body>
 </html>
