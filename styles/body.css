@@ -10,3 +10,69 @@
     font-size: 16px;
     
 }
+
+
+.info-panel-1 {
+    position: relative;
+    top: 155px;
+    left: 200px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    column-gap: 340px;
+    row-gap: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 80%;
+    color: wheat;
+}
+
+.info-1 {
+    width: 460px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-panel-2 {
+    position: relative;
+    top: -50px;
+    left: 600px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    column-gap: 340px;
+    row-gap: 0px;
+    z-index: 1;
+    background-color:black;
+    opacity: 80%;
+    color: wheat;
+}
+
+.info-2 {
+    display: grid;
+    font-family: montserrat, arial;
+    font-size: 30px;
+    width: 460px;
+    padding-left: 100px;
+    padding-top: 40px;
+    margin-right: 20px;
+    line-height: 50px;
+    
+}
+
+.link-underline {
+    color: wheat;
+    text-decoration: none;
+}
+
+.link-underline:visited {
+    color: wheat;
+}
