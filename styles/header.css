@@ -3,32 +3,110 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: navy;
+    background-color: beige;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    opacity: 40%;
 }
 
 .left-section {
+    display:flex;
+    width: 300px;
+}
 
+.joe-icon-left {
+    width: 50px;
+    margin-left: 10px;
 }
 
 .middle-section {
     display: flex;
-    width: 800px;
     align-items: center;
     justify-content: space-between;
+    width: 1000px;
 }
 
-.home-button {
+button {
+    border: none;
     cursor: pointer;
+    border-radius: 30px;
+    background-color:transparent;
+    font-family: montserrat 700;
+    font-size: 45px;
+    color:black
+}
+
+.right-section {
+    width: 300px;
+    
+}
+
+.info-panel-1 {
+    position: fixed;
+    bottom: 150px;
+    left: 200px;
+    width: 500px;
+    height: 400px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    column-gap: 340px;
+    row-gap: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 80%;
+    color: wheat;
+}
+
+.info-1 {
+    width: 460px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-panel-2 {
+    position: fixed;
+    bottom: 150px;
+    left: 800px;
+    height: 400px;
+    width: 500px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    column-gap: 340px;
+    row-gap: 0px;
+    z-index: 1;
+    background-color:black;
+    opacity: 80%;
+    color: wheat;
+}
+
+.info-2 {
+    display: grid;
+    font-family: montserrat, arial;
+    font-size: 30px;
+    width: 460px;
+    padding-left: 100px;
+    padding-top: 40px;
+    margin-right: 20px;
+    line-height: 50px;
+    
+}
+
+.link-underline {
+    color: wheat;
+    text-decoration: none;
+}
+
+.link-underline:visited {
+    color: wheat;
 }
 
 .footer {
     display: flex;
-    background-color: aquamarine;
+    background-color:wheat;
+    opacity: 50%;
     position: absolute;
     bottom: 0;
     left: 0;

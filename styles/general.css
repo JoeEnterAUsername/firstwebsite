@@ -1,4 +1,8 @@
 body {
-    background-color:cadetblue;
+    background-color: rgb(70,58,173);
     margin: 0;
+}
+
+p {
+    font-family: Montserrat, Arial;
 }
