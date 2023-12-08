@@ -64,9 +64,20 @@
     
 }
 
+.span-hover:hover {
+    color: coral;
+}
+
 .flexcontainer{
     display:flex;
     flex-direction: row;
+}
+
+@media (max-width: 767px) {
+    .info-panel-1 {
+        top: 100px;
+        margin-bottom: -100px;;
+    }
 }
 
 @media (max-width: 767px) {
@@ -84,7 +95,8 @@
 
 @media (max-width: 767px) {
     .info-panel-2 {
-        margin-left: 8%
+        margin-left: 8%;
+        
     }
 }
 
