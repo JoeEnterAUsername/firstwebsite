@@ -11,10 +11,11 @@
     
 }
 
+
 .middle-section {
     justify-content: center;
     position: absolute;
-    top: 15px;
+    top: 25%;
     left: -2%;
     font-family: Montserrat, Arial;
     width: 100%;
