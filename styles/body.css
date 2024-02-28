@@ -43,6 +43,13 @@
        
 }
 
+@media screen and (max-width: 1024px) {
+    .info-1 {
+        font-size: 25px;
+    }
+    
+}
+
 .type {
     overflow: hidden;
     border-right: .15em solid rgb(80, 133, 255);
